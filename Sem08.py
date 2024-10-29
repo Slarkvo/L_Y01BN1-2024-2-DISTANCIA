@@ -19,7 +19,7 @@ def main():
     #Registro por el usuario
     marca = st.text_input("Marca del automòvil")
     modelo = st.text_input("Modelo del automòvil")
-    kilometraje =) st.text_input("Kilometraje del automòvil")
+    kilometraje = st.text_input("Kilometraje del automòvil")
 
     if st.button("Registrar"):
         #Validacion de los datos
