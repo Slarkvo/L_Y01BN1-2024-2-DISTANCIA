@@ -33,7 +33,7 @@ def main():
     num2 = st.text_input("Nùmero2")
 
     #Boton para calcular
-    if st.button("Calcular")
+    if st.button("Calcular"):
         Redultado = calcular(operacion, num1, num2)
         st.write("**Resultado:**,resultado")
 
