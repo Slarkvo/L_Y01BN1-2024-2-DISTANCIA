@@ -25,7 +25,7 @@ def main():
         #Validacion de los datos
         error = validate_data(marca, modelo, kilometraje)
         if error:
-                st.error(error)
+            st.error(error)
         else:
             st.success("Automòvil registrado exitosamente.")
             st.write("**Marca:**",marca)
