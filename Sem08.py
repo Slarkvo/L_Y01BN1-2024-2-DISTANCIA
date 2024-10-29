@@ -1,6 +1,6 @@
 import streamlit as streamlit
 
-def validate_data(marca, modelo, kilometraje)
+def validate_data(marca, modelo, kilometraje):
     """Valida los datos ingresados para el automovil."""
     if not marca or not modelo:
         return "La marca y el modelo no deben estar vacìos"
